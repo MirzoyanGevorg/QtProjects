@@ -12,7 +12,7 @@ class RegWindow : public QWidget
     Q_OBJECT
 
 public:
-    explicit RegWindow(QWidget *parent = 0);
+    explicit RegWindow(QWidget *parent = nullptr);
     ~RegWindow();
     QString getName() const;
     QString getPass() const;

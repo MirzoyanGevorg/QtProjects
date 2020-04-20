@@ -12,7 +12,7 @@ class AuthWindow : public QWidget
     Q_OBJECT
 
 public:
-    explicit AuthWindow(QWidget *parent = 0);
+    explicit AuthWindow(QWidget *parent = nullptr);
     ~AuthWindow();
     QString getLogin() const;
     QString getPass() const;

@@ -12,6 +12,16 @@ AuthWindow::~AuthWindow() {
     delete ui;
 }
 
+QString AuthWindow::getLogin() const
+{
+    return m_userName;
+}
+
+QString AuthWindow::getPass() const
+{
+    return m_userPass;
+}
+
 void AuthWindow::on_lineEditName_textEdited(const QString& name)
 {
     m_userName = name;
